@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>354FDC4A-669C-4817-8E6C-5B47D0D76E1B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unit2Lesson2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9F07F81F5F69DB9EB166A2E48C33EC004E6B25E0</key>
+		<string>https://github.com/vytalman/thinkful.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unit2Lesson2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9F07F81F5F69DB9EB166A2E48C33EC004E6B25E0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vytalman/thinkful.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F07F81F5F69DB9EB166A2E48C33EC004E6B25E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F07F81F5F69DB9EB166A2E48C33EC004E6B25E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Unit2Lesson2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
