@@ -13,7 +13,7 @@
 		9AD1D3C21A09DAC2001863B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD1D3C11A09DAC2001863B2 /* Images.xcassets */; };
 		9AD1D3C51A09DAC2001863B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AD1D3C31A09DAC2001863B2 /* LaunchScreen.xib */; };
 		9AD1D3D11A09DAC2001863B2 /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1D3D01A09DAC2001863B2 /* PhotoFiltersTests.swift */; };
-		9ADEBBD01A0C3B28001BB65E /* hacker_emblem_by_schuitads-d5y32bc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEBBCF1A0C3B28001BB65E /* hacker_emblem_by_schuitads-d5y32bc.jpg */; };
+		9ADEBBD21A0C415F001BB65E /* iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEBBD11A0C415F001BB65E /* iphone-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		9AD1D3CA1A09DAC2001863B2 /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD1D3CF1A09DAC2001863B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD1D3D01A09DAC2001863B2 /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
-		9ADEBBCF1A0C3B28001BB65E /* hacker_emblem_by_schuitads-d5y32bc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hacker_emblem_by_schuitads-d5y32bc.jpg"; path = "../../../../../../Pictures/hacker_emblem_by_schuitads-d5y32bc.jpg"; sourceTree = "<group>"; };
+		9ADEBBD11A0C415F001BB65E /* iphone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iphone-wallpaper.jpg"; path = "../../../../../../Pictures/iphone-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		9AD1D3B71A09DAC2001863B2 /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
-				9ADEBBCF1A0C3B28001BB65E /* hacker_emblem_by_schuitads-d5y32bc.jpg */,
+				9ADEBBD11A0C415F001BB65E /* iphone-wallpaper.jpg */,
 				9AD1D3BA1A09DAC2001863B2 /* AppDelegate.swift */,
 				9AD1D3BC1A09DAC2001863B2 /* ViewController.swift */,
 				9AD1D3BE1A09DAC2001863B2 /* Main.storyboard */,
@@ -197,8 +197,8 @@
 			files = (
 				9AD1D3C01A09DAC2001863B2 /* Main.storyboard in Resources */,
 				9AD1D3C51A09DAC2001863B2 /* LaunchScreen.xib in Resources */,
-				9ADEBBD01A0C3B28001BB65E /* hacker_emblem_by_schuitads-d5y32bc.jpg in Resources */,
 				9AD1D3C21A09DAC2001863B2 /* Images.xcassets in Resources */,
+				9ADEBBD21A0C415F001BB65E /* iphone-wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

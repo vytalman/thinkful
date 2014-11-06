@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hacker_emblem_by_schuitads-d5y32bc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Ji-6w-45d">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Ji-6w-45d">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
@@ -69,6 +69,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hacker_emblem_by_schuitads-d5y32bc.jpg" width="1024" height="576"/>
+        <image name="iphone-wallpaper.jpg" width="1000" height="1500"/>
     </resources>
 </document>
