@@ -13,6 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var fibo = FibonacciModel()
+        var returnedArray: [Int] = []
+        
+        returnedArray = fibo.calculateFibonacciNumbers(minimum2: 5)
+        
+        println()
+        for number in returnedArray {
+            print("\(number), ")
+        }
     }
 
     override func didReceiveMemoryWarning() {
