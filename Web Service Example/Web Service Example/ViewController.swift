@@ -15,6 +15,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.myNameLabel.alpha = 0.0 // Hide The label until we get the data
+        
+        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.Gray)
+        activityIndicatorView.center = self.view.center
+        self.view.addSubview(activityIndicatorView)
+        activityIndicatorView.startAnimating()
+        
         let manager = AFHTTPRequestOperationManager()
         
         manager.GET( "http://graph.facebook.com/ryan.mesa.1232",
@@ -24,8 +31,17 @@ class ViewController: UIViewController {
                 
                 if let myName = responseObject.valueForKey("name") as? String {
                     self.myNameLabel.text = myName;
+                    
+                    activityIndicatorView.stopAnimating()
+                    
+                    UIView.animateWithDuration(1.0, animations: {
+                        self.myNameLabel.alpha = 1.0
+                        self.myNameLabel.morphingEffect = .Fall
+                        }, completion: {
+                            (value: Bool) in
+                            println("Animation complete!")
+                    })
                 }
-                self.myNameLabel.morphingEffect = .Evaporate
             },
             failure: { (operation: AFHTTPRequestOperation!,error: NSError!) in
                 println("Error: " + error.localizedDescription)
